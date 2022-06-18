@@ -1,0 +1,37 @@
+.todo-button {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+    90deg,
+    #F8BB3A 0%,
+    #da9a24 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.todo-button:hover {
+    transform: scale(1.1);
+    border-radius: 4px;
+}
+
+.todo-button:active {
+    transform: scale(1);
+    border-radius: 0 4px 4px 0;
+}
+
+.todo-input.edit {
+    border: 2px solid #112B1E 99%;
+}
+
+.todo-button.edit {
+    background: linear-gradient(
+    90deg,
+    #F4BC33 40%,
+    #112B1E 99%
+    );
+    padding: 16px 22px;
+}

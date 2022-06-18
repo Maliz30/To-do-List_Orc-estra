@@ -1,0 +1,32 @@
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.edit-icon {
+    margin-right: 5px;
+    color: #fff;
+}
+
+.edit-icon:hover {
+    transform: scale(1.5);
+}
+
+.edit-icon:active {
+    transform: scale(1);
+}
+
+.delete-icon {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.delete-icon:hover {
+    transform: scale(1.6);
+}
+
+.delete-icon:active {
+    transform: scale(1.1);
+}

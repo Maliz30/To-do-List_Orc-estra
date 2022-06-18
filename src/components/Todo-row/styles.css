@@ -1,0 +1,46 @@
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(
+    90deg,
+    #f8bd3b 40%,
+    #330819 99%
+    );
+
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+    
+}
+
+.todo-row:nth-child(4n + 1) {
+    background: linear-gradient(
+    70deg,  
+    #12482e 35%,
+    #330819 99%
+    );
+}
+
+.todo-row:nth-child(4n + 2) {
+    background: linear-gradient(
+    90deg,
+    #F4BC33 40%,
+    #112B1E 99%
+    );
+}
+
+.todo-row:nth-child(4n + 3) {
+    background: linear-gradient(
+    70deg,
+    #7bc14d 40%,  
+    #330819 99%
+    );
+}
